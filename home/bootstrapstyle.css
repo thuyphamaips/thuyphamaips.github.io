@@ -1,0 +1,776 @@
+/* Cho máy tính để bàn: */
+@media only screen and (min-width: 992px) {
+.active{
+    color:yellow;
+}
+.list_menu{
+    color: white;
+}
+a:active {
+    color: yellow;
+    text-transform: lowercase;
+  }
+.background_line{
+    width: 50%;
+    margin: 0 auto;
+}
+.menu_tittle{
+    width: 50%;
+}
+.menu{
+    width: 50%;
+    display: inline;
+    font-size: 13px;
+}
+.menu_list{
+    padding: 15px;
+}
+.about_us_description{
+    margin: 50px auto;
+    width: 50%;
+}
+.pic_two{
+    width: 100%;
+}
+.pic_one{
+    width: 400px;
+}
+.education_photo{
+    padding:0;
+}
+.business_photo{
+    padding: 0;
+}
+.hands{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+.book{
+	border-radius: 50%;
+    border-color: white;
+    width:60px;
+    height:37px;
+	
+}
+.our_business_area{
+    padding: 0;
+    margin: 0;
+}
+.pic_three{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+.our_business{
+    padding:0;
+    margin-top: 50px;
+    height: 100%;
+}
+.explain_1{
+    color:white;
+    font-size:10px;
+}
+.explain_2{
+    color:white;
+    font-size:10px;
+}
+.education_part_contain{
+	color: white;
+	text-decoration: none;
+    font-size: 20px;
+}
+.business_part_photo{
+	margin-top: 10px;
+}
+.business_part_contain{
+	color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.business_style{
+    width:30px;
+    height:4px;
+}
+.business_part{
+    font-size: 5px;
+    color: white;
+    margin-left: 30px;
+}
+.business_contain{
+	position: absolute;
+    z-index: 2;
+}
+.pic_side{
+    width: fit-content;
+   padding: 0;
+   margin-left: -20px;
+}
+.pic_5{
+    margin-top: 20px;
+}
+.pic_6{
+    margin-top: 30px;
+    margin-left: -10px;
+}
+.descipt_one{
+    width: 84%;
+    padding: 0;
+}
+.news{
+    width: 50%;
+   margin:0 auto;
+}
+.link_more{
+    padding: 5px;
+}
+.img_gallery{
+    margin-top: 50px;
+}
+.news_part{
+    font-size: 15px;
+    width: 50%;
+    margin: 0 auto;
+}
+.news_style{
+    font-size: 30px;
+    width: 50%;
+    margin: 0 auto;
+}
+.gallery{
+    border: 1px solid #ccc;
+    padding: 0;
+    margin-right: 15px;
+    width:30%;
+}
+.gallery_1{
+    border: 1px solid #ccc;
+    padding: 0;
+    width: 30%;
+}
+.gallery_2{
+    border: 1px solid #ccc;
+    padding: 0;
+    margin-left: 15px;
+    width: 30%;
+}
+.contact_map{
+    width: 50%;
+    margin: 0 auto;
+    height: 500px;
+}
+.contact_area{
+    padding: 0;
+}
+.news_part_contain{
+    font-weight: 800;
+    font-size: 16px;
+    margin:5px;
+}
+.news_style{
+    font-weight: 500;
+    font-size: 30px;
+    margin:0 auto;
+}
+.news_part{
+    font-size: 5px;
+}
+.paragraph_1{
+    font-weight: 800;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.paragraph_2{
+    font-size: 10px;
+    margin-top: 10px;
+}
+.photo_map{
+	width: 100%;
+    height: 135px; 
+    margin-top: 20px;
+}
+.form-control{
+    font-size: 11px;
+}
+.button_contain{
+   width: 33%;
+    margin-bottom: 10px;
+   padding-left: 0;
+   padding-right: 0;
+  
+}
+.button_contain_1{
+  padding-right: 0;
+    width: 33%;
+}
+.button_contain_2{
+    padding-right: 0;
+    width: 33%;
+}
+.button_mess{
+    text-align: center;
+}
+.CREVEA{
+    margin: 0 auto;
+    width: 50%;
+}
+.footer_name{
+    padding: 15px;
+}
+.menu_lang{
+    padding: 0;
+    width: 20%;
+}
+.menu_categorys{
+    padding: 0;
+}
+.footer_news{
+    width: 30%;
+    }
+.b_1{
+    padding-left: 0;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid white;
+    background: black;
+    width: 60%;
+}
+.copyright{
+    text-align: center;
+}
+}
+/* Cho điện thoại di động: */
+@media only screen and (max-width: 600px){
+.dropbtn {  
+    color: black;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;    
+}      
+.dropdown {
+    float: left;
+    position: relative;
+    display: inline-block;   
+}  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+} 
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color:white;
+}
+.menu{
+    display:none;  
+}
+.menu_background{
+    background-color: white;
+}
+.background_line{
+    width: 100%;
+    margin:0;
+}
+ 
+.icon_search{
+    float:right;
+}
+.menu_tittle{
+    color:#236cb5;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+}
+.menu_list{
+    background-color: white;
+   padding: 0;
+  }
+  .banner_img{
+      height:150px;
+  }
+  .about_us_description{
+      margin-top: 50px;
+      height: fit-content;
+  }
+  .about_us{
+      width:100%;
+      
+  }
+  .paragraph_1{
+      font-weight: 800;
+      font-size: 30px;
+  }
+  .pic_one{
+      width: 100%;
+
+  }
+  .pic_two{
+      width: 106%;
+  }
+  .our_business{
+      margin-top: 50px;
+      height: 800px;
+      width: 100%;
+  }
+ .education_photo{
+   width: 100%;
+ }
+.pic_three{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    z-index: 1;
+}
+
+.book{
+    width: 100%;
+    height: 90px;
+    margin-top: 50px;
+}
+.pic_5{
+    width: 30%;
+    margin: 0;
+}
+.hands{
+    width: 70%;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;  
+}
+.pic_6{
+       margin-top: 20px;
+       width: 30%;
+   }
+   
+.business_style{
+width: 40px;
+  }
+.our_business_area{
+    
+      width: 100%;
+  }
+.business_photo{
+    width: 100%;
+  }
+.descipt_one{
+      width: 40%;
+      text-align: center;
+      float: right;
+      margin: 0 80px;
+  }
+.pic_side{
+      width: fit-content;
+      position: absolute;
+      z-index: 1;
+      margin:50px 0 50px 20px;
+  }
+  .business_part{
+      color: white;
+      text-align: center;
+  }
+  .business_contain{
+     width: 100%;
+     height: 500px;
+     position: absolute;
+      z-index: 2;
+  }
+  .education_part_contain{
+      font-size: 25px;
+      font-weight: 800;
+      color: white;
+  }
+  .business_part_contain{
+    font-size: 25px;
+    font-weight: 800;
+    color: white;
+  }
+  .explain_1{
+      font-size: 14px;
+      color: white;
+  }
+  .explain_2{
+      font-size: 14px;
+      color: white;
+  }
+  .business_part{
+      font-size: 20px;
+      margin-left: 70px;
+  }
+  .news{
+      width: 100%;
+      margin-left: 0;
+  }
+  .news_part{
+    font-size: 15px;
+}
+.news_style{
+    font-size: 30px;
+}
+  .gallery{
+      padding: 0;
+      width: 100%;
+      border: 1px solid #ccc;
+  }
+  .gallery_1{
+    margin-top: 20px;
+      padding: 0;
+      width: 100%;
+      border: 1px solid #ccc;
+  }
+  .gallery_2{
+      margin-top: 20px;
+      padding: 0;
+      margin-left: 0;
+      width: 100%;
+      border: 1px solid #ccc;
+  }
+  .CREVEA{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .contact_map{
+      width: 100%;
+      padding: 15px;
+  }
+  .contact_area{
+      width: 100%;
+      padding: 15px;
+  }
+  .map_area{
+      width: 100%;
+      float: none;
+      padding: 15px;
+  }
+  .button_contain{
+      width: 100%;
+      padding: 0;
+  }
+  .button_contain_1{
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+}
+.photo_map{
+    width: 100%;
+}
+.button_contain_2{
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+}
+.button_mess{
+    text-align: center;
+}
+.CREVEA{
+    width: 100%;
+    padding: 15px;
+}
+.menu_lang{
+    padding: 0;
+}
+.menu_categorys{
+    padding: 0;
+}
+input[type=text] {
+    
+   width: 70%;
+}
+.CATEGORYS{
+    padding-left: 0;
+}
+.footer_submit{
+    display: inline;
+    width: 100%;
+}
+.menu_crevea{
+    padding: 0;
+}
+.footer_news{
+    padding: 0;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid white;
+    background: black;
+    width: 70%;
+}
+  }
+  @media only screen and (min-width: 600px) {
+    .icon_bars{
+        display: none;
+    }
+    .icon_search{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+  }
+/* Cho máy tính bảng: */
+@media only screen and (min-width: 768px) and (max-width: 992px){
+.active{
+    color:yellow;
+}
+.list_menu{
+        color: white;
+    }
+    a:active {
+        color: yellow;
+        text-transform: lowercase;
+      }
+    .background_line{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .menu_tittle{
+        width: 40%;
+        font-size: 30px;
+    }
+    .menu{
+        width: 60%;
+        display: inline;
+        font-size: 15px;
+       
+    }
+    .menu_list{
+        padding: 20px;
+        height: 72px;
+      float: right;
+    }
+.banner_img{
+    height: 300px;
+}
+.about_us_description{
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+}
+.about_us{
+    width: 50%;
+    position: absolute;
+    z-index: 2;
+    height: 500px;
+}
+.imgaboutus{
+    width: 50%;
+    float: right;
+}
+.pic_one{
+    width: 100%;
+}
+.education_photo{
+    width: 100%;
+}
+.business_photo{
+    width: 100%;
+    height: 500px;
+}
+.pic_two{
+    width: 100%;
+}
+.paragraph_1{
+    font-size: 21px;
+}
+.pic_three{
+    width: 96.4%;
+    position: absolute;
+    z-index: 1;
+}
+.business_contain{
+    position: absolute;
+    width: 100%;
+    height: 340px;
+    z-index: 2;
+}
+ .our_business{
+     height: 100%;
+ }
+ .business_part{
+     width: 50%;
+     margin: 50px 100px;
+     font-size: 20px;
+     color: white;
+ }
+ .business_style{
+     width: 30px;
+ }
+ .business_1{
+     width: 100%;
+    
+ }
+ .pic_side{
+     width: 20%;
+     margin: 0;
+ float: left;
+ }
+ .descipt_one{
+  width: 80%;
+  float: right;
+ }
+ .pic_5{
+  width: 100%;
+     margin: 0;
+ }
+ .hands{
+     width: 80px;
+     height: 80px;
+     border-radius: 50%;
+     margin-left: 15px;
+ }
+ .pic_6{
+     margin-top: 20px;
+     width: 80%;
+ }
+ .book{
+     width: 100%;
+ }
+ .education_part_contain{
+    font-size: 20px;
+    font-weight: 800;
+    color:white ;
+}
+.business_part_contain{
+  font-size: 20px;
+  font-weight: 800;
+  color: white;
+ 
+}
+.explain_1{
+    font-size: 12px;
+    color: white;
+}
+.explain_2{
+    font-size: 12px;
+    color: white;
+}
+.img_gallery{
+    margin-top: 50px;
+}
+.news{
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    position: relative;
+}
+.news_part{
+    font-size: 15px;
+}
+.news_style{
+    font-size: 30px;
+}
+.gallery{
+   padding: 0;
+    border: 1px solid #ccc;
+    width: 30%;
+    float: left;
+}
+.gallery_1{
+margin: 0 40px;
+  border: 1px solid #ccc;
+  padding: 0;
+}
+.gallery_2{
+    width: 30%;
+   padding: 0;
+  float: right;
+   border: 1px solid #ccc;
+}
+.gallery{
+    width: 30%;
+}
+.gallery_1{
+    
+    width: 30%;
+}
+.gallery_2{
+   
+    width: 30%;
+}
+.contact_map{
+    margin: 0;
+   width: 100%;
+  height: 600px;
+}
+.contact_area{
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+.map_area{
+    width: 50%;
+    float: right;
+    padding: 0 15px;
+    
+} .news_part_contain{
+    font-size: 30px;
+}
+.button_contain{
+    width:100%;
+   padding: 0;
+}
+.button_contain_1{
+    width: 100%;
+    padding: 0;
+    margin:10px 0;
+}
+.button_contain_2{
+    width: 100%;
+    padding: 0;
+    margin: 10px 0;
+}
+.photo_map{
+    height: 100px;
+   width: 100%;
+   margin-top: 30px;
+}
+.button_mess{
+    text-align: center;
+}
+.CREVEA{
+margin: 0;
+width: 100%;
+}
+.footer_name{
+    padding: 15px;
+}
+.menu_lang{
+    padding: 0;
+    width: 20%;
+}
+.menu_categorys{
+    padding: 0;
+}
+.footer_news{
+    width: 30%;
+}
+.b_1{
+padding-left: 0;
+}
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid white;
+    background: black;
+    width: 70%;
+}
+.CATEGORYS{
+    padding-left: 40px;
+}
+  }
+  @media only screen and (max-width: 600px) {
+
+  }
+  @media only screen and (min-width: 768px){
+  
+  }
